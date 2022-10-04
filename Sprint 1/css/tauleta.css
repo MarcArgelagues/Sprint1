@@ -2,7 +2,6 @@
   background-color: darkslateblue;
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
 }
 
 .header > div {
@@ -13,7 +12,6 @@
   margin: 10px;
   display: flex;
   flex-direction: row;
-  max-width: 1200px;
   justify-content: center;
   background-color: rgb(230, 0, 255);
 }
@@ -35,7 +33,6 @@
   margin-left: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
-  max-width: 1200px;
 }
 
 .headerA3 {
@@ -44,7 +41,6 @@
   height: 10px;
   padding: 10px;
   margin: 10px;
-  max-width: 1200px;
 }
 
 .headerB {
@@ -58,7 +54,6 @@
 }
 .headerB1 {
   background-color: rgb(255, 115, 0);
-  width: 1200px;
   padding: 10px;
   height: 10px;
   margin: 10px;
@@ -67,24 +62,21 @@
 /*SEGON BLOCK*/
 
 .main {
-  background-color: darkslateblue;
-  display: grid;
-  grid-template-columns: 800px 400px;
-  max-width: 1200px;
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  flex-direction: column;
   margin-top: 10px;
 }
-
 .mainA {
   margin: 10px;
   display: grid;
-  grid-template-columns: 380px 380px;
   grid-gap: 10px;
-  grid-template-rows: 30px 30px;
   background-color: rgb(230, 0, 255);
 }
 
 .mainA1 {
   background-color: chartreuse;
+  width: auto;
   height: 10px;
   padding: 10px;
   margin: 10px;
@@ -92,38 +84,37 @@
 
 .mainA2 {
   background-color: chartreuse;
+  width: auto;
   height: 10px;
   padding: 10px;
   margin: 10px;
 }
 .mainA3 {
   background-color: chartreuse;
+  width: auto;
   height: 10px;
   padding: 10px;
   margin: 10px;
 }
 .mainA4 {
   background-color: chartreuse;
+  width: auto;
   height: 10px;
   padding: 10px;
   margin: 10px;
 }
 .mainA5 {
-  background-color: chartreuse;
-  width: 730px;
+  background-color: rgb(38, 71, 5);
   height: 10px;
   padding: 10px;
   margin: 10px;
 }
 
 .mainB {
-  margin: 10px;
-  justify-content: left;
-  background-color: rgb(230, 0, 255);
+  background-color: rgb(0, 255, 255);
 }
-
 .mainB1 {
-  background-color: chartreuse;
+  background-color: rgb(255, 0, 0);
   height: 10px;
   padding: 10px;
   margin-left: 10px;
@@ -132,12 +123,13 @@
 }
 
 .mainB2 {
-  background-color: chartreuse;
+  background-color: rgb(255, 0, 0);
   height: 10px;
   padding: 10px;
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 /*TERCER BLOCK*/
@@ -154,7 +146,7 @@
 }
 
 .footerA {
-margin:10px;
+  margin: 10px;
   padding: 10px;
   height: 10px;
   flex-direction: row;
