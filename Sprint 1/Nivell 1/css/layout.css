@@ -1,0 +1,372 @@
+.header {
+  background-color: darkslateblue;
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+}
+
+
+.headerA {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(230, 0, 255);
+}
+
+.headerA1 {
+  background-color: chartreuse;
+  width: 300px;
+  height: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.headerA2 {
+  
+  background-color: chartreuse;
+  width: 600px;
+  height: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-width: 1200px;
+}
+
+.headerA3 {
+  background-color: chartreuse;
+  width: 300px;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+  max-width: 1200px;
+}
+
+.headerB {
+  background-color: rgb(184, 211, 33);
+  display: flex;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.headerB1 {
+  background-color: rgb(255, 115, 0);
+  width: 1200px;
+  padding: 10px;
+  height: 10px;
+  margin: 10px;
+}
+
+/*SEGON BLOCK*/
+
+.main {
+  background-color: darkslateblue;
+  display: grid;
+  grid-template-columns: 66% 34%;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+
+.mainA {
+  margin: 10px;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 10px;
+  grid-template-rows: 30px 30px;
+  background-color: rgb(230, 0, 255);
+}
+
+.mainA1 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mainA2 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.mainA3 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.mainA4 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+.mainA5 {
+  background-color: rgb(38, 71, 5);
+  width: 192%;
+  height: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.mainB {
+
+  margin: 10px;
+  justify-content: left;
+  background-color: rgb(230, 0, 255);
+}
+
+.mainB1 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.mainB2 {
+  background-color: chartreuse;
+  height: 10px;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+/*TERCER BLOCK*/
+
+.footer {
+  background-color: darkslateblue;
+  display: flex;
+  max-width: 1200px;
+  margin-top: 10px;
+}
+
+.footer > div {
+  flex: 1;
+}
+
+.footerA {
+margin:10px;
+  padding: 10px;
+  height: 10px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(230, 0, 255);
+}
+
+/*---------------TAULETA---------------------*/
+
+@media ((min-width: 640px) and (max-width: 1000px)) {
+  .main {
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+  .mainA {
+    margin: 10px;
+    display: grid;
+    grid-gap: 10px;
+    background-color: rgb(230, 0, 255);
+  }
+  
+  .mainA1 {
+    background-color: chartreuse;
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .mainA2 {
+    background-color: chartreuse;
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA3 {
+    background-color: chartreuse;
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA4 {
+    background-color: chartreuse;
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA5 {
+    background-color: rgb(38, 71, 5);
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .mainB {
+    background-color: rgb(0, 255, 255);
+  }
+  .mainB1 {
+    background-color: rgb(255, 0, 0);
+    height: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .mainB2 {
+    background-color: rgb(255, 0, 0);
+    height: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  
+}
+
+/*---------------MÒBIL---------------------*/
+
+
+@media (max-width:640px) {
+  .headerA {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(230, 0, 255);
+  }
+  
+  .headerA1 {
+    background-color: chartreuse;
+    width:auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+    
+  }
+  
+  .headerA2 {
+    background-color: chartreuse;
+    width:auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .headerA3 {
+    background-color: chartreuse;
+    width:auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .headerB {
+    background-color: rgb(184, 211, 33);
+    display: flex;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  
+    justify-content: center;
+  }
+  .headerB1 {
+    background-color: rgb(255, 115, 0);
+    width: 1200px;
+    padding: 10px;
+    height: 10px;
+    margin: 10px;
+  }
+  
+  /*SEGON BLOCK*/
+  
+  .main {
+    background-color: rgb(255, 255, 0);
+    display: flex;
+   flex-direction: column;
+  
+    margin-top: 10px;
+  }
+  .mainA {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(167, 244, 240);
+  }
+  
+  .mainA1 {
+    background-color: hwb(205 0% 0%);
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .mainA2 {
+    background-color: hwb(205 0% 0%);
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA3 {
+    background-color: hwb(205 0% 0%);
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA4 {
+    background-color: hwb(205 0% 0%);
+    width: auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  .mainA5 {
+    background-color: hwb(204 0% 81%);
+    width:auto;
+    height: 10px;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .mainB{
+    background-color: rgb(244, 149, 217);
+  
+  }
+  .mainB1 {
+    background-color: rgb(255, 149, 0);
+    height: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .mainB2 {
+    background-color: rgb(255, 149, 0);
+    height: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+
+
